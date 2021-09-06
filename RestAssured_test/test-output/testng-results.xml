@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-05T22:56:17 BRT" name="Default suite" finished-at="2021-09-05T22:56:17 BRT" duration-ms="43">
+  <suite started-at="2021-09-05T23:24:35 BRT" name="Default suite" finished-at="2021-09-05T23:24:38 BRT" duration-ms="3549">
     <groups>
     </groups>
-    <test started-at="2021-09-05T22:56:17 BRT" name="Default test" finished-at="2021-09-05T22:56:17 BRT" duration-ms="43">
+    <test started-at="2021-09-05T23:24:35 BRT" name="Default test" finished-at="2021-09-05T23:24:38 BRT" duration-ms="3549">
       <class name="Test_POST">
-        <test-method signature="test_1_post()[pri:0, instance:Test_POST@61d6015a]" started-at="2021-09-05T22:56:17 BRT" name="test_1_post" finished-at="2021-09-05T22:56:17 BRT" duration-ms="7" status="PASS">
+        <test-method signature="test_1_post()[pri:0, instance:Test_POST@2cdd0d4b]" started-at="2021-09-05T23:24:35 BRT" name="test_1_post" finished-at="2021-09-05T23:24:37 BRT" duration-ms="1931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1_post -->
+        <test-method signature="test_2_put()[pri:0, instance:Test_POST@2cdd0d4b]" started-at="2021-09-05T23:24:37 BRT" name="test_2_put" finished-at="2021-09-05T23:24:37 BRT" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2_put -->
+        <test-method signature="test_3_patch()[pri:0, instance:Test_POST@2cdd0d4b]" started-at="2021-09-05T23:24:37 BRT" name="test_3_patch" finished-at="2021-09-05T23:24:38 BRT" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3_patch -->
+        <test-method signature="test_4_delete()[pri:0, instance:Test_POST@2cdd0d4b]" started-at="2021-09-05T23:24:38 BRT" name="test_4_delete" finished-at="2021-09-05T23:24:38 BRT" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4_delete -->
       </class> <!-- Test_POST -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

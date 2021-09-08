@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="1" total="2" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-08T18:17:40Z" name="Default suite" finished-at="2021-09-08T18:17:40Z" duration-ms="35">
+  <suite started-at="2021-09-08T18:25:13Z" name="Default suite" finished-at="2021-09-08T18:25:13Z" duration-ms="103">
     <groups>
     </groups>
-    <test started-at="2021-09-08T18:17:40Z" name="Default test" finished-at="2021-09-08T18:17:40Z" duration-ms="35">
-      <class name="tests.BaseClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BaseClass@5454d35e]" started-at="2021-09-08T18:17:40Z" name="setup" finished-at="2021-09-08T18:17:40Z" duration-ms="11" status="FAIL">
+    <test started-at="2021-09-08T18:25:13Z" name="Default test" finished-at="2021-09-08T18:25:13Z" duration-ms="103">
+      <class name="tests.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tests@455b6df1]" started-at="2021-09-08T18:25:13Z" name="setup" finished-at="2021-09-08T18:25:13Z" duration-ms="29" status="FAIL">
           <exception class="java.lang.Error">
             <message>
-              <![CDATA[Unresolved compilation problem: 
-Exeception cannot be resolved to a type
+              <![CDATA[Unresolved compilation problems: 
+Syntax error, insert "}" to complete Block
+Syntax error, insert "Finally" to complete BlockStatements
 ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-Exeception cannot be resolved to a type
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Syntax error, insert "}" to complete Block
+Syntax error, insert "Finally" to complete BlockStatements
 
-at tests.BaseClass.setup(BaseClass.java:40)
+at tests.BaseClass.setup(BaseClass.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -49,18 +51,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sampleTest()[pri:0, instance:tests.BaseClass@5454d35e]" started-at="2021-09-08T18:17:40Z" name="sampleTest" finished-at="2021-09-08T18:17:40Z" duration-ms="0" status="SKIP">
+        <test-method signature="test01()[pri:0, instance:tests.Tests@455b6df1]" started-at="2021-09-08T18:25:13Z" name="test01" finished-at="2021-09-08T18:25:13Z" duration-ms="0" status="SKIP">
           <exception class="java.lang.Error">
             <message>
-              <![CDATA[Unresolved compilation problem: 
-Exeception cannot be resolved to a type
+              <![CDATA[Unresolved compilation problems: 
+Syntax error, insert "}" to complete Block
+Syntax error, insert "Finally" to complete BlockStatements
 ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-Exeception cannot be resolved to a type
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Syntax error, insert "}" to complete Block
+Syntax error, insert "Finally" to complete BlockStatements
 
-at tests.BaseClass.setup(BaseClass.java:40)
+at tests.BaseClass.setup(BaseClass.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,12 +94,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.BaseClass@5454d35e]" started-at="2021-09-08T18:17:40Z" name="teardown" finished-at="2021-09-08T18:17:40Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Tests@455b6df1]" started-at="2021-09-08T18:25:13Z" name="teardown" finished-at="2021-09-08T18:25:13Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.BaseClass -->
+      </class> <!-- tests.Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

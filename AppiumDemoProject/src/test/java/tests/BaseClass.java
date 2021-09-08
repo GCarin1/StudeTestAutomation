@@ -37,12 +37,12 @@ public class BaseClass {
 
 			driver = new AppiumDriver<MobileElement>(url, caps);
 			driver = new AndroidDriver<MobileElement>(url, caps);
-		} catch (Exeception exp) {
-
-			System.out.println("Cause id " + exp.getCause());
-			System.out.println("Message is :" + exp.getMessage());
-			exp.printStackTrace();
-		}
+//		} catch (Exeception exp) {
+//
+//			System.out.println("Cause id " + exp.getCause());
+//			System.out.println("Message is :" + exp.getMessage());
+//			exp.printStackTrace();
+//		}
 	}
 	@Test
 	public void sampleTest() {

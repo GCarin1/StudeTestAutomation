@@ -5,5 +5,38 @@
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
     ],
-    "profile": { "name": "typicode" }
+    "profile":[ { "name": "typicode" }],
+    
+      "users":[{
+        "firstName":"Guilherme",
+        "lastName":"Carini" ,
+        "subjectId": 1,
+        "Id":1
+      },
+        {
+          "firstName":"Bruna",
+          "lastName":"Santos" ,
+          "subjectId": 2,
+          "Id":2
+        },
+        {
+          "firstName":"Gabriel",
+          "lastName":"Pena" ,
+          "subjectId": 3,
+          "Id":3
+        }
+      ],
+      "":[
+        {
+          "id":1,
+          "name":"Automação"
+        },
+        {
+          "id":2,
+          "name":"DevOps"
+        }
+      ]
+      
+      
+    
   }
